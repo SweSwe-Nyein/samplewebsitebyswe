@@ -1,0 +1,204 @@
+.home-banner{
+  padding: 7em 0;
+  background-image: url('https://media.istockphoto.com/photos/futuristic-office-picture-id1187179171?b=1&k=20&m=1187179171&s=170667a&w=0&h=4utIg-YgJP2aJIFWHkdeemBDguO6XJwjSImh9sKxmbI=');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.home-banner h1 {
+  color: #E87323;
+  font-size: 30px;
+  text-align: center;
+  background: #ffffffa1;
+  width: 50%;
+  margin: auto;
+  border-radius: 5px;
+  padding: 13px;
+}
+.welcome-section {
+  background: #E87323;
+  color: #fff;
+  padding: 4rem 29% 13rem;
+  line-height: 2.5;
+  text-align: center;
+}
+.welcome-section h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.welcome-section a {
+  margin-top: 45px;
+  display: inline-block;
+  background: #fff;
+  color: #E87323;
+  padding: 9px 22px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+}
+
+.latest-courses, .latest-blogs {
+  background: #fff;
+  width: 97%;
+  margin: -8rem auto 0;
+  padding: 3rem 0 4rem;
+  border-radius: 30px;
+  text-align: center;
+  border: 1px solid #e9e9e9;
+}
+.latest-blogs {
+  padding-bottom: 0;
+}
+.latest-courses h1, .latest-books h1, .cus-review h1, .latest-blogs h1{
+  font-size: 30px;
+}
+.more-courses, .more-book, .more-blogs,.register-now {
+  display: inline-block;
+  background: #414141;
+  color: #fff;
+  padding: 16px 23px;
+  border-radius: 50px;
+  border: 2px solid #414141;
+}
+.more-blogs {
+  margin-bottom: 3rem;
+}
+
+.latest-books {
+  background: #fff;
+  width: 97%;
+  margin: 3rem auto 0;
+  padding: 3rem 0 4rem;
+  border-radius: 30px;
+  text-align: center;
+  border: 1px solid #e9e9e9;
+}
+.latest-books .book {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 3rem auto auto;
+}
+.latest-books img {
+  width: 250px;
+}
+.book div {
+  flex: 1;
+  text-align: left;
+  margin-right: 3%;
+  line-height: 1.8;
+}
+.book h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #414141;
+  margin: 30px 0;
+}
+.book a {
+  display: block;
+  margin: 2.5rem 0 0;
+  color: #E87323;
+}
+.cus-review {
+  background: #E87323;
+  color: #fff;
+  text-align: center;
+  padding: 11rem 0;
+  margin: -8rem 0 0;
+  z-index: -1;
+  position: relative;
+}
+.cus-review .review {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 70%;
+  margin: 3rem auto auto;
+}
+.cus-review img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.review div {
+  flex: 1;
+}
+.review h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 30px 0;
+}
+.review p {
+  line-height: 1.8;
+  padding: 0 50px;
+}
+.register {
+  background: #E87323;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  padding: 20px 0;
+}
+.register p {
+  flex: 1;
+}
+.register-now {
+  margin-right: 20%;
+}
+
+.course-flex a:hover, .blog-flex a:hover, .account-container a:hover {
+  color: #555;
+}
+
+@media (max-width: 30em) {
+  header {
+    position: relative;
+  }
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+  }
+  .header-logo {
+    margin: 0.5rem 0 1.5rem;
+  }
+  .header-menu li {
+    margin: 0 4% 1rem 0;
+    font-size: 15px;
+  }
+  .home-banner h1{
+    width: 75%;
+    padding: 1rem 0;
+  }
+  .welcome-section {
+    padding: 4rem 3rem 13rem;
+  }
+  .welcome-section p {
+    text-align: center;
+  }
+  .more-book {
+    margin-top: 3rem;
+  }
+  .book h2 {
+    text-align: center;
+  }
+  .book p {
+    text-align: justify;
+  }
+  .book a {
+    text-align: center;
+  }
+  .review {
+    flex-direction: column;
+    align-items: center;
+  }
+  .review p {
+    padding: 0;
+  }
+  .register-now {
+    margin-right: 4%;
+  }
+}

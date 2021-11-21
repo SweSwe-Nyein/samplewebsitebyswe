@@ -1,0 +1,35 @@
+.about-container img {
+  width: 250px;
+  display: block;
+}
+.about-content {
+  display: flex;
+  align-items: center;
+  padding: 5rem 7rem;
+}
+
+.about-content p {
+  padding: 0 0 0 4rem;
+  margin-left: 4rem;
+  border-left: 5px solid #E87323;
+  line-height: 2;
+}
+
+.about-footer {
+  padding: 2rem 0;
+  text-align: center;
+  background: #E87323;
+  color: #fff;
+}
+
+@media (max-width: 30em) {
+  .about-content {
+    flex-direction: column;
+    padding: 3rem 1rem 1rem;
+  }
+  .about-content p {
+    border: none;
+    margin: 3em 0;
+    padding: 0;
+  }
+}

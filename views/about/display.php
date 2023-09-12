@@ -7,7 +7,7 @@
 <div class="about-container">
   <div class="about-banner">
     <h1>About Myanmar Online Entrepreneur</h1>
-    <p>၆ လအတွင်း ရောင်းအား ၂ဆ</p>
+    <p>၆လ ၂ဆ</p>
   </div>
   <div class="about-content">
     <img src="https://myanmaronlineentrepreneur.com/wp-content/uploads/2021/08/41645164_2150593138601856_5965729275158986752_n-980x653.jpg" alt="">
